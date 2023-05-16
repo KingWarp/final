@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: aqua;
+    background-image: url(/img/houselmfao.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#wrapper {
+    width: 60%;
+    background-color: rgba(12, 33, 434, 0.5);
+    color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 0,auto;
+}
+
+
+
+.policies {
+    margin-bottom: 2rem;
+}
+
+form {
+    padding-left: 3rem;
+}
+
+label,
+span {
+    display: inline-block;
+    width: 250px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.radio label {
+    width: 12px;
+}
+
+span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=number] {
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+textarea {
+    border-radius: 8px;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+button {
+    background-color: white;
+    color: rgb(41, 116, 202);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button[type=submit] {
+    margin-top: 2rem;
+}
+
+nav {
+    float: right;
+    position: sticky;
+    top: 0;
+    background-color: rgba(47, 125, 241, 0.2);
+    width: 240px;
+}
+
+nav ul { 
+    padding: 0;
+}
+nav li {
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+nav a, 
+.assignments a,
+footer a {
+    text-decoration: none;
+    color: rgb(55, 43, 2);
+}
+
+nav a:link,
+nav a:visited {
+    line-height: 1,5;
+}
+
+nav a:hover,
+nav a:active {
+    text-decoration: underline wavy rgb(202, 33, 24);
+    text-underline-offset: 6px;
+    color: rgb(130, 123, 56);
+}
+
+nav a:hover::before {
+    content: "\1F60E ";
+}
